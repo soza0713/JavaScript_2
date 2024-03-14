@@ -2,9 +2,42 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Difference Calculator</title>
 </head>
-<body>
+</body>
+<h1>Calculateur de différence de dates et d'heures</h1>
 
+<div>
+    <label for="dateLeft">Date gauche:</label>
+    <input type="date" id="dateLeft">
+</div>
+
+<div>
+    <label for="dateRight">Date droite:</label>
+    <input type="date" id="dateRight">
+</div>
+
+<div>
+    <button onclick="calculateDateDifference()">Calculer différence de jours</button>
+    <p id="dateDifference"></p>
+</div>
+
+<div>
+    <label for="timeLeft">Heure gauche:</label>
+    <input type="time" id="timeLeft">
+</div>
+
+<div>
+    <label for="dateRight">Date droite:</label>
+    <input type="date" id="dateRightTime">
+</div>
+
+<div>
+    <button onclick="calculateTimeDifference()">Calculer différence d'heures</button>
+    <p id="timeDifference"></p>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
